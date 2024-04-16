@@ -5,9 +5,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     let count = 0;
     
-    button.addEventListener('click', function() {
+    function addOne() {
         count++;
-
         compteur.textContent = count;
-    });
+    }
+
+    button.addEventListener('click', addOne);
 });
