@@ -12,4 +12,9 @@ window.addEventListener('load', ev => {
 
     console.log(Trie);
 
+    // Action du bouton "Mélanger"
+    $("#mix").click(function() {
+        mix_img();
+        $("#message").text(""); // Effacer le message (s'il y en a un)
+    });
 });
