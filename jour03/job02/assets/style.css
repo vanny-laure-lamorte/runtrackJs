@@ -1,0 +1,15 @@
+.move {
+    cursor: move;
+}
+
+#message{
+    font-size: 30px;
+}
+
+.greenText {
+    color: green;
+}
+
+.redText {
+    color: red;
+}

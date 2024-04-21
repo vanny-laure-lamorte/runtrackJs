@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Job01</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link href="style.css" rel="stylesheet">
+    <title>Job02</title>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="script.js"></script>
 </head>
 
 <body>
 
-    <div>
-        <button id="btn">Mélanger</button>
-    </div>
-    
-    <div>
-        <img src="assets/arc1.png" alt="arc-en-ciel 1" id="arc1">
-        <img src="assets/arc2.png" alt="arc-en-ciel 2" id="arc2">
-        <img src="assets/arc3.png" alt="arc-en-ciel 3" id="arc3">
-        <img src="assets/arc4.png" alt="arc-en-ciel 4" id="arc4">
-        <img src="assets/arc5.png" alt="arc-en-ciel 5" id="arc5">
-        <img src="assets/arc6.png" alt="arc-en-ciel 6" id="arc6">
+    <h1>Rainbow Puzzle</h1>
+    <h2>You only have 5 possible moves</h2>
+
+    <button id="mix">Mélanger</button>
+
+    <div id="container">
+        <img src="assets/arc1.png" class="move">
+        <img src="assets/arc2.png" class="move">
+        <img src="assets/arc3.png" class="move">
+        <img src="assets/arc4.png" class="move">
+        <img src="assets/arc5.png" class="move">
+        <img src="assets/arc6.png" class="move">
     </div>
 
-    <div>
-        <p class="gagné">Vous avez gagné</p>
-        <p class="perdu">Vous avez perdu</p>
-    </div>
+    <p id="message"></p>
 
- 
 </body>
 </html>

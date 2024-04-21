@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <ul>
+      <li>Connexion</li>
+      <li>Register</li>
+    </ul>
+  </header>
+
+  <main>
+
+        <form method = "post" id="ConnexionForm" action="#" >
+
+          <legend> Welcome</legend>
+          <hr>
+        
+          <label>Email</label><br>          
+          <input type="email" name="email" placeholder="Enter your email" id="email" ><br>
+          <span id="EmailError" class="ErrorMsg"></span><br>
+          
+          <label>Password</label><br>
+          <input type="password" name="password" placeholder="Enter your password" id="password" ><br>
+          <span id="PasswordError" class="ErrorMsg"></span><br>
+
+          <input type="button" name="login" id="login-btn" value="Login">
+
+        </form>        
+
+</main>
+
+<footer>
+
+</footer>
+
+</body>
+</html>

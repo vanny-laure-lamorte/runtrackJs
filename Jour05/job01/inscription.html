@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.14.0/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+	<header>
+		<ul>
+			<li>Connexion</li>
+			<li>Register</li>
+		  </ul>
+	</header>
+
+	<main>
+
+		<form class="RegisterForm">
+
+				<legend>Registration Form</legend>
+				<hr>
+				<table>
+					<tr>
+						<td><label>Last name</label></td>
+						<td><input type="text" placeholder="Enter your last name" id="lastName"/> </td>
+						<span id="LastNameError" class="ErrorMsg"></span><br>
+
+					</tr>
+
+					<tr>
+						<td><label>First Name</label></td>
+						<td><input type="text" placeholder="Enter your name" id="firstName"/></td>
+						<span id="FirstNameError" class="ErrorMsg"></span><br>
+
+					</tr>
+					<tr>
+						<td><label>Address</label></td>
+						<td><input type="text" placeholder="Enter your Address"id="address"/></td>
+						<span id="AddressError" class="ErrorMsg"></span><br>
+
+					</tr>
+					<tr>
+						<td><label>Postcode</label></td>
+						<td><input type="text" placeholder="Enter your Postcode" id="postcode"/></td>
+						<span id="PostcodeError" class="ErrorMsg"></span><br>
+
+					</tr>	
+					<tr>
+						<td><label>Email</label></td>
+						<td><input type="email" placeholder="Enter your email" id="email"/></td>
+						<span id="EmailError" class="ErrorMsg"></span><br>
+
+					</tr>		
+					<tr>
+						<td><label>Password</label></td>
+						<td><input type="password" placeholder="Enter your password" id="password"/></td>
+						<span id="PasswordError" class="ErrorMsg"></span><br>
+
+					</tr>               
+				</table>	
+				<input type="button" name="register" id="register-btn" value="Sign In">
+	</main>
+	<footer>
+
+	</footer>
+</body>
+</html>

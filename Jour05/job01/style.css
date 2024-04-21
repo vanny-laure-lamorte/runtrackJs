@@ -1,0 +1,135 @@
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	min-height: 100vh;
+}
+
+/* Header  */
+
+header {
+	background-color: rgb(36, 10, 50);
+	border-radius: 5px;
+	height: 60px;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	margin: 0 5px 5px;
+}
+
+ul {
+	list-style: none;
+	margin-right: 10px;
+	padding: 0px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: row;
+}
+
+li {
+	margin-left: 10px;
+	color: white;
+}
+
+/* Main */
+
+/* Connexion  */
+
+main {
+	background-color: rgb(54, 24, 75) ;
+	border-radius: 5px;
+	margin: 0 5px 5px;
+}
+
+legend {
+	font-size: 24px;
+	color: rgb(60, 16, 83);
+}
+
+hr {
+	width: 350px;
+	margin-left: 0;
+}
+
+.ErrorMsg{
+	color: red;
+	display: none;
+	font-size: 10px;
+}
+
+#FirstNameCo, #LastNameCo, #EmailCo, #PasswordCo,#LoginCo  {
+    margin-top: 3px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	margin-top: 50p;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	position: relative;
+}
+
+#ConnexionForm{
+	width: 320px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	float: left;
+	padding: 10px 55px 40px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 5px;
+	border-radius: 2px;
+}
+
+input[type=text],[type=password], [type=email]{
+	width: 90%;
+	height: 34px;
+	padding-left: 5px;
+	border: 2px solid #c2c4c4;
+	border-radius: 5px;
+	color: rgb(60, 16, 83);
+	font-size: 16px;
+	}
+
+label{
+	color: rgb(60, 16, 83);
+	font-weight: bold;
+	}
+
+#login-btn, #register-btn {
+	width: 90%;
+	height: 40px;
+	background: rgb(54, 24, 75);
+	border: 1px solid #767d80;
+	border-radius: 25px;
+	font-size: 20px;
+	margin-top: 25px;
+	padding: 8px;
+	font-weight: bold;
+	cursor: pointer;
+	color: white;
+	}
+
+footer{
+	background-color: rgb(36, 10, 50);
+	margin-top: 5px;
+	height: 60px;
+	border-radius: 5px;
+	margin: 0 5px 5px;
+}
+
+
+/* Inscription */
+
+.RegisterForm {	
+	width: 320px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding: 10px 55px 40px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0 0 5px;
+	border-radius: 2px;
+}
+
