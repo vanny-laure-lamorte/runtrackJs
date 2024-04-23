@@ -1,0 +1,17 @@
+body {
+    font-family: arial;
+}
+
+table {
+    margin: 50px;
+}
+
+table, caption, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#update {
+    cursor: pointer;
+}
+
